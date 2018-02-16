@@ -8,6 +8,6 @@ services:
       - NODE_ENV=development
     volumes:
       - ./:/home/node/app
-    expose:
-      - "8000"
+    ports:
+      - "8000:8000"
     command: "yarn start"
