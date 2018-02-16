@@ -5,5 +5,8 @@
   "repository": "git@github.com:viatsko/node-boilerplate.git",
   "author": "Valerii Iatsko <viatsko@viatsko.me>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "eslint-config"
+  ]
 }
