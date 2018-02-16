@@ -10,6 +10,8 @@
     "test": "cd server/ && yarn test"
   },
   "workspaces": [
-    "eslint-config"
+    "core",
+    "eslint-config",
+    "server"
   ]
 }
