@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "cd server/ && yarn test"
+    "test": "cd api/ && yarn test"
   },
   "workspaces": [
     "core",
