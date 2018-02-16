@@ -10,10 +10,11 @@
     "test": "jest ."
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {
-    "supertest": "^3.0.0",
-    "jest": "^22.3.0"
+    "jest": "^22.3.0",
+    "supertest": "^3.0.0"
   }
 }
