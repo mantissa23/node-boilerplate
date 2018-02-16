@@ -1,0 +1,22 @@
+language: node_js
+os:
+ - linux
+node_js:
+  - "9"
+  - "8"
+before_install:
+  - 'nvm install-latest-npm'
+install:
+  - yarn
+script:
+  - 'if [ -n "${TEST-}" ]; then yarn test ; fi'
+sudo: false
+env:
+  - TEST=true
+matrix:
+  fast_finish: true
+  allow_failures:
+    - os: osx
+    - env: TEST=true ALLOW_FAILURE=true
+    - env: COVERAGE=true
+    - node_js: "9"
