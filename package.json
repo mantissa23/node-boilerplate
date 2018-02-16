@@ -6,6 +6,9 @@
   "author": "Valerii Iatsko <viatsko@viatsko.me>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "cd server/ && yarn test"
+  },
   "workspaces": [
     "eslint-config"
   ]
